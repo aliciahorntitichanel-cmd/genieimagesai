@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GenieAi - Générateur IA</title>
+  <style>
+    body { font-family: cursive; background: linear-gradient(#ffdee9, #b5fffc); text-align: center; padding: 2rem; }
+    h1 { font-size: 3rem; }
+    input, button { font-size: 1.2rem; padding: .8rem; margin: 1rem; }
+    img { max-width: 90%; margin-top: 2rem; border-radius: 1rem; box-shadow: 0 0 10px rgba(0,0,0,0.2); }
+    #status { font-size: 1rem; margin-top: .5rem; }
+  </style>
+</head>
+<body>
+  <h1>GenieAi ✨</h1>
+  <input type="text" id="prompt" placeholder="Décris ton image..." />
+  <button onclick="generateImage()">🎨 Générer</button>
+  <p id="status"></p>
+  <img id="output" />
+  <script src="script.js"></script>
+</body>
+</html>
