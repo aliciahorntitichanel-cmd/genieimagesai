@@ -8,7 +8,7 @@ async function generateImage() {
 
   try {
     const response = await fetch(
-      "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-2-base",
+      "https://api-inference.huggingface.co/models/prompthero/openjourney",
       {
         method: "POST",
         headers: {
